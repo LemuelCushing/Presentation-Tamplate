@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>TITLE</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--Personal customizations-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/tippy.css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0430db19bd.js"></script>
+    <script src="js/tippy.min.js"></script>
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/material.red-deep_orange.min.css" />
+    <script defer src="js/material.min.js"></script>
+    <script src="./js/anchorme.js"></script>
+    <script src="./js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown="main.md" data-separator="^---" data-separator-vertical="^--">
+            </section>
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            dependencies: [{
+                src: 'plugin/markdown/marked.js'
+            }, {
+                src: 'plugin/markdown/markdown.js'
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/reveal.js-menu/menu.js'
+            }],
+            markdown: {
+                smartypants: true
+            },
+            menu: {
+                // titleSelector: '.title',
+                themes: false,
+                transitions: false,
+                hideMissingTitles: true,
+                custom: [{
+                    title: "Bibliography",
+                    icon: "<i class='fa fa-book'></i>",
+                    content: '<li class="slide-menu-item"><a href="bib.html" target="_blank">Bibliography</a></li>'
+                }, {
+                    title: 'Print version',
+                    icon: '<i class="fa fa-file-pdf-o" aria-hidden="true"></i>',
+                    content: '<li class="slide-menu-item"><a href="?print-pdf" target="_blank">PDF version</a></li>'
+                }]
+            }
+        });
+
+        // Lem's custom additions 
+        let print = window.location.search.match(/print-pdf/gi)
+
+        Reveal.addEventListener('ready', function(event) {
+            if (print) {
+                var noPrint = document.getElementsByClassName('no-print');
+                while (noPrint[0]) {
+                    noPrint[0].parentNode.remove()
+                }
+                $('*').css('background', 'transparent')
+                $('.slide-menu-button').remove()
+            }
+            // textFit($('section.present'))
+            // event.currentSlide, event.indexh, event.indexv
+            // $(".fancy_title").lettering();
+            if (!print) {
+
+                new Tippy('.tp', {
+                        interactive: true,
+                        animation: 'perspective',
+                        size: 'big',
+                        hideDelay: 1000,
+
+                    })
+                    // Tipped.create('.tp', {
+                    //     size: 'huge',
+                    //     behavior: 'sticky'
+                    // });
+                document.getElementById('button').addEventListener('click', () => {
+                    if (screenfull.enabled) {
+                        screenfull.toggle();
+                        // screenfull.request();
+                    } else {
+                        console.log("On No!")
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

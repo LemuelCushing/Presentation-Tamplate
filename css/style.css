@@ -1,0 +1,11 @@
+@font-face {
+    font-family: keysFont;
+    src: url(/fonts/KeyCapsFLF.ttf);
+}
+
+.tp {
+    text-decoration: underline overline dotted;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 50% !important;
+}
