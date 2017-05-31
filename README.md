@@ -20,7 +20,9 @@
 #### Slide Separators:
 
 Vertical: `---` <br>
-Horizontal: `--`
+Horizontal: `--` <br>
+
+Notes: `VVV`
 
 #### Footnotes:
 ![tooltip](./Pictures/tooltip.gif)
