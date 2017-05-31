@@ -66,5 +66,9 @@ Start the slide with:
     * parse pasted URLs
     * Easy local-server setup and better gh-pages upload guide
 * Add RTL mode 
-* Improve design and readability when using pictures (Preprocess and extract main colors?)
 * Replace HTML literals with easier syntax (Blockquote, txt-overlay, slide-bg, etc')
+* Visual 
+    * Improve design and readability when using pictures (Preprocess and extract main colors?)
+    * Ken Burns effect
+    * Find a good way to embed leafly maps into presentations
+    * News-style newspaper highlighting 
