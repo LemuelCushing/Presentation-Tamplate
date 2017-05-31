@@ -15,7 +15,9 @@
 2. Use [bibbase](https://bibbase.org) to create a rendered bibliography 
 3. Replace the `script src=` in `./bib.html`
 
-### Lem's sprinkles:
+---
+
+## Lem's sprinkles
 
 #### Slide Separators:
 
@@ -48,3 +50,21 @@ Start the slide with:
 <!--.slide: class="no-print"-->
 ```
 
+---
+
+## To Do:
+
+* Proper title case in titles (Ignore articles, conjunctions, and prepositions)
+* Improve citation 
+    * Relocate the citation itself to a separate file 
+    * Use citation-js to format the citations correctly and automatically
+    * Automatic short-cite and ibid.
+    * Automatic Bibliography instead of using BibBase 
+    * Transform tooltips into footnotes in print-pdf mode
+* Package alongside editor-tools and scripts to ease beginners' use
+    * paste-image 
+    * parse pasted URLs
+    * Easy local-server setup and better gh-pages upload guide
+* Add RTL mode 
+* Improve design and readability when using pictures (Preprocess and extract main colors?)
+* Replace HTML literals with easier syntax (Blockquote, txt-overlay, slide-bg, etc')
