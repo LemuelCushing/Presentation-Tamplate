@@ -72,3 +72,9 @@ Start the slide with:
     * Ken Burns effect
     * Find a good way to embed leafly maps into presentations
     * News-style newspaper highlighting 
+
+* Vague dreams 
+    * mapinseconds or similar simple csv-to-map tool
+    * timelines
+    * dedicated sub sections, for characters, events, terms, etc. 
+          * Wiki-like inner linking to those relevant sections 
