@@ -1,7 +1,15 @@
 ## Blank Template for Lem's presentations
 
-1. Copy to a new folder
-1. `git init`
+## Why?
+
+A feature rich and accessible presentation package, if not for presenting, can bu useful as learning tool. I think. I might, you don't know. 
+It's mainly a way to avoid doing the work I actually need to be doing, i.e. creating the actual content of these presentations. Very useful for that. Yep.
+
+## How?
+
+<!--1. Copy to a new folder-->
+<!--1. `git init`-->
+1. Clone
 1. `npm install`
 3. `grunt` (Check if the modified `marked.js` file hasn't changed)
 3. Remove `./Pictures/` content
