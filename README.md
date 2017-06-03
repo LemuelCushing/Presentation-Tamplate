@@ -78,3 +78,6 @@ Start the slide with:
     * timelines
     * dedicated sub sections, for characters, events, terms, etc. 
           * Wiki-like inner linking to those relevant sections 
+* Implement markdeep, or at least automatic svg from ascii 
+* Ability for live editing during presentation, perhaps even from the speaker screen itself. If this tool can be useful for teaching purposes, this'll be a great addition. 
+* proper export to manageable off line copy. Might be harder than even the previous ideas, but a worthy cause.
