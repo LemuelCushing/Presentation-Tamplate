@@ -131,3 +131,6 @@ Start the slide with:
     * [NUKnightLab/TimelineJS3 - Dunno why, but I like this one the least](https://github.com/NUKnightLab/TimelineJS3)
 
 * [lukesampson/scoop - A command-line installer for Windows](https://github.com/lukesampson/scoop)
+
+* [gitbrent/PptxGenJS: JavaScript library that creates PowerPoint (pptx) presentations](https://github.com/gitbrent/PptxGenJS) 
+	This is insane. It'll take an obscene amount of work to accomplish, and even then, chances are it'll come out, at best, meh. Still, could be interesting, so I'm adding it.
