@@ -6,23 +6,22 @@
     - [Why?](#why)
     - [How?](#how)
     - [Lem's sprinkles](#lems-sprinkles)
-            - [Slide Separators:](#slide-separators)
-            - [Bib:](#bib)
-            - [Footnotes:](#footnotes)
-            - [Blockquote:](#blockquote)
-            - [Non-printable slides:](#non-printable-slides)
-            - [Text Overlay](#text-overlay)
-            - [Floating images](#floating-images)
-            - [Image slides](#image-slides)
-            - [Background](#background)
-                - [Color](#color)
-                - [Black and White](#black-and-white)
-                - [Text](#text)
+        - [Slide Separators:](#slide-separators)
+        - [Bib:](#bib)
+        - [Footnotes:](#footnotes)
+        - [Blockquote:](#blockquote)
+        - [Non-printable slides:](#non-printable-slides)
+        - [Text Overlay](#text-overlay)
+        - [Floating images](#floating-images)
+        - [Image slides](#image-slides)
+        - [Background](#background)
+            - [Color](#color)
+            - [Black and White](#black-and-white)
+            - [Text](#text)
     - [To Do:](#to-do)
     - [~~To Copy~~ Inspiration](#to-copy-inspiration)
 
 <!-- /TOC -->
-
 ## Why?
 
 A feature rich and accessible presentation package, if not for presenting, can bu useful as learning tool. I think. I might, you don't know. 
@@ -33,12 +32,12 @@ It's mainly a way to avoid doing the work I actually need to be doing, i.e. crea
 <!--1. Copy to a new folder-->
 <!--1. `git init`-->
 1. Clone
-1. `npm install`
+2. `npm install`
 3. `grunt` (Check if the modified `marked.js` file hasn't changed)
-3. Remove `./Pictures/` content
-4. Replace this `README.md` file
-3. The presentation itself goes into `./main.md`
-4. `grunt serve`
+4. Remove `./Pictures/` content
+5. Replace this `README.md` file
+6. The presentation itself goes into `./main.md`
+7. `grunt serve`
 
 ---
 
@@ -54,8 +53,8 @@ Notes: `VVV`
 #### Bib:
 1. Create a `.bib` file to replace `./bib.bib`
 2. Upload the `.bib` file to the repo
-2. Use [bibbase](https://bibbase.org) to create a rendered bibliography 
-3. Replace the `script src=` in `./bib.html`
+3. Use [bibbase](https://bibbase.org) to create a rendered bibliography 
+4. Replace the `script src=` in `./bib.html`
 
 #### Footnotes:
 ![tooltip](./Pictures/tooltip.gif)
@@ -76,7 +75,7 @@ quote
 #### Non-printable slides:
 
 Start the slide with:
-  
+
 ```markdown
 <!--.slide: class="no-print"-->
 ```
@@ -91,7 +90,6 @@ Start the slide with:
 ##### Color
 ##### Black and White
 ##### Text
-
 
 ---
 
@@ -110,6 +108,8 @@ Start the slide with:
     * Easy local-server setup and better gh-pages upload guide
 * Add RTL mode 
 * Replace HTML literals with easier syntax (Blockquote, txt-overlay, slide-bg, etc')
+* Embeddables - 
+    * Maps. Leafly? [Lizmap](https://docs.3liz.com/en/)?
 * Visual 
     * Improve design and readability when using pictures (Preprocess and extract main colors?)
     * Ken Burns effect
@@ -133,4 +133,4 @@ Start the slide with:
 * [lukesampson/scoop - A command-line installer for Windows](https://github.com/lukesampson/scoop)
 
 * [gitbrent/PptxGenJS: JavaScript library that creates PowerPoint (pptx) presentations](https://github.com/gitbrent/PptxGenJS) 
-	This is insane. It'll take an obscene amount of work to accomplish, and even then, chances are it'll come out, at best, meh. Still, could be interesting, so I'm adding it.
+  This is insane. It'll take an obscene amount of work to accomplish, and even then, chances are it'll come out, at best, meh. Still, could be interesting, so I'm adding it.
