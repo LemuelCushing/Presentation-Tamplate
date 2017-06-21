@@ -119,6 +119,7 @@ Start the slide with:
 * Ability for live editing during presentation, perhaps even from the speaker screen itself. If this tool can be useful for teaching purposes, this'll be a great addition. 
 * proper export to manageable off line copy. Might be harder than even the previous ideas, but a worthy cause.
 
+* Standalone version - using [Monaco Editor](https://microsoft.github.io/monaco-editor/) perhaps? The Monarch syntax highlighting tool seems useful
 ---
 
 ## ~~To Copy~~ Inspiration 
