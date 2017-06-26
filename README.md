@@ -119,7 +119,8 @@ Start the slide with:
 * Ability for live editing during presentation, perhaps even from the speaker screen itself. If this tool can be useful for teaching purposes, this'll be a great addition. 
 * proper export to manageable off line copy. Might be harder than even the previous ideas, but a worthy cause.
 
-* Standalone version - using [Monaco Editor](https://microsoft.github.io/monaco-editor/) perhaps? The Monarch syntax highlighting tool seems useful
+* Standalone version - using [Monaco Editor](https://microsoft.github.io/monaco-editor/) perhaps? The Monarch syntax highlighting (Monarch) tool seems useful
+    * [h2non/nar: node.js application archive - create self-contained binary like executables](https://github.com/h2non/nar)
 ---
 
 ## ~~To Copy~~ Inspiration 
