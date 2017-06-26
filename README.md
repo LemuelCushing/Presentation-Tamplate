@@ -121,6 +121,8 @@ Start the slide with:
 
 * Standalone version - using [Monaco Editor](https://microsoft.github.io/monaco-editor/) perhaps? The Monarch syntax highlighting (Monarch) tool seems useful
     * [h2non/nar: node.js application archive - create self-contained binary like executables](https://github.com/h2non/nar)
+    * [(178) Madoko: a scholarly markdown - YouTube](https://www.youtube.com/watch?v=Aa-ustkfU4Y) - [Madoko](https://www.madoko.net/) is a 
+FOSS MD editor by Microsoft with an in-built support for reveal.js
 ---
 
 ## ~~To Copy~~ Inspiration 
