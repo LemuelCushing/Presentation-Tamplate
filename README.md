@@ -1,25 +1,30 @@
 # Blank Template for Lem's presentations
 
+| 
+ :heavy_exclamation_mark: JIC it's not clear - this is super out-of-date (probably), and if it still works - its tailor made for too specific needs and is way top-heavy and full of 𝒸𝑜𝑜𝓁 effects, and is not stranger-friendly *at all.*  The README is basically the hardest-worked-on bit here. :heavy_exclamation_mark:  <br><br> :red_circle: I kinda want to get back to it but I've got a paper to write <br> so maybe it's time :red_circle:|
+:---: 
+
+
 <!-- TOC -->
 
 - [Blank Template for Lem's presentations](#blank-template-for-lems-presentations)
-    - [Why?](#why)
-    - [How?](#how)
-    - [Lem's sprinkles](#lems-sprinkles)
-        - [Slide Separators:](#slide-separators)
-        - [Bib:](#bib)
-        - [Footnotes:](#footnotes)
-        - [Blockquote:](#blockquote)
-        - [Non-printable slides:](#non-printable-slides)
-        - [Text Overlay](#text-overlay)
-        - [Floating images](#floating-images)
-        - [Image slides](#image-slides)
-        - [Background](#background)
-            - [Color](#color)
-            - [Black and White](#black-and-white)
-            - [Text](#text)
-    - [To Do:](#to-do)
-    - [~~To Copy~~ Inspiration](#to-copy-inspiration)
+  - [Why?](#why)
+  - [How?](#how)
+  - [Lem's sprinkles](#lems-sprinkles)
+      - [Slide Separators:](#slide-separators)
+      - [Bib:](#bib)
+      - [Footnotes:](#footnotes)
+      - [Blockquote:](#blockquote)
+      - [Non-printable slides:](#non-printable-slides)
+      - [Text Overlay](#text-overlay)
+      - [Floating images](#floating-images)
+      - [Image slides](#image-slides)
+      - [Background](#background)
+        - [Color](#color)
+        - [Black and White](#black-and-white)
+        - [Text](#text)
+  - [To Do:](#to-do)
+  - [~~To Copy~~ Inspiration](#sto-copys-inspiration)
 
 <!-- /TOC -->
 ## Why?
@@ -121,8 +126,8 @@ Start the slide with:
 
 * Standalone version - using [Monaco Editor](https://microsoft.github.io/monaco-editor/) perhaps? The Monarch syntax highlighting (Monarch) tool seems useful
     * [h2non/nar: node.js application archive - create self-contained binary like executables](https://github.com/h2non/nar)
-    * [(178) Madoko: a scholarly markdown - YouTube](https://www.youtube.com/watch?v=Aa-ustkfU4Y) - [Madoko](https://www.madoko.net/) is a 
-FOSS MD editor by Microsoft with an in-built support for reveal.js
+    * [(178) Madoko: a scholarly markdown - YouTube](https://www.youtube.com/watch?v=Aa-ustkfU4Y) - [Madoko](https://www.madoko.net/) is a  FOSS MD editor by Microsoft with an in-built support for reveal.js
+
 ---
 
 ## ~~To Copy~~ Inspiration 
@@ -138,3 +143,5 @@ FOSS MD editor by Microsoft with an in-built support for reveal.js
 
 * [gitbrent/PptxGenJS: JavaScript library that creates PowerPoint (pptx) presentations](https://github.com/gitbrent/PptxGenJS) 
   This is insane. It'll take an obscene amount of work to accomplish, and even then, chances are it'll come out, at best, meh. Still, could be interesting, so I'm adding it.
+
+* [pseudocode.js](https://saswatpadhi.github.io/pseudocode.js/)
